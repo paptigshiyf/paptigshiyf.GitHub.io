@@ -1,0 +1,16 @@
+{
+"companyName": "AnMianIntelligence",
+"productName": "LASPView",
+"productVersion": "0.18",
+"dataUrl": "LaspView0.18Web.data.unityweb",
+"wasmCodeUrl": "LaspView0.18Web.wasm.code.unityweb",
+"wasmFrameworkUrl": "LaspView0.18Web.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": true,
+"multithreading": false,
+"unityVersion": "2019.3.8f1"
+}

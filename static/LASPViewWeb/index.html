@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | LASPView</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <!-- <link rel="stylesheet" href="TemplateData/style.css"> -->
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script src="LASPView/LaspViewWebAPI.js"></script>
+    <script>
+        function LaspViewAddDefaultArc() {
+            //Called once as soon as UnityLoader.js is done and LaspView is successfully loaded
+            //example1
+            defaultArcList = []
+            if (defaultArcList.length == 0) {
+                defaultArcList.push("/LASPViewWeb/LASPView/PeriodicTable.arc")
+                defaultArcList.push("/LASPViewWeb/LASPView/Claisen.arc")
+            }
+            for (var i in defaultArcList) {
+                unityInstance.SendMessage("Main Camera", "LaspViewAddArcByUrl", defaultArcList[i]);
+            }
+        }
+        var unityInstance = UnityLoader.instantiate("unityContainer",
+            "Build/laspviewWeb.json",
+            { onProgress: UnityProgress, onsuccess: LaspViewAddDefaultArc });
+    </script>
+</head>
+
+<body>
+    <div class="webgl-content">
+        <div id="unityContainer" style="width: 800px; height: 600px"></div>
+        <!-- <div class="footer">
+            <div class="webgl-logo"></div>
+            <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+            <div class="title">LASPView</div>
+        </div> -->
+    </div>
+</body>
+
+</html>

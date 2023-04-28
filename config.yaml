@@ -1,0 +1,30 @@
+baseURL: 'http://example.org/'
+languageCode: 'zh'
+defaultContentLanguage: "zh"
+title: 'Blog of Shiyf'
+theme: 'zen'
+
+
+params:
+  contact: "603586785@qq.com"
+  copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> licence.<!--/Creative Commons License-->'
+  description: 'Blog of Shiyf'
+  dateformat: "2 January, 2006"
+  favicon: "images/favicon.ico"
+  feedlinks: true
+  logoPath: "images/logo.jpg"
+  icon: ""
+  image: ""
+  imageMaxWidth: 400
+  logoWidth: 64
+  math: ""
+  mobileMenu: true
+  poweredby: true
+  realfavicongenerator: true
+  themeColor: "#000000"
+  sidebar: true
+  submitted: true
+  mainSections:             # The sections you want to have listed on the front page.
+    - "AfterSubmit"            # Default to the section with most content if not set.
+    - "About"            # Set to empty if no section should be listed.
+  LASPViewBase: "/LASPViewWeb/"
