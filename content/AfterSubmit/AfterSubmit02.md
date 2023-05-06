@@ -2,7 +2,7 @@
 title: "After Submit 02"
 date: 2023-04-26T15:11:05+08:00
 draft: true
-summary: "我的第二篇文章发表后的感想:\n\n
+summary: "我的第二篇文章:\n\n
 Engineering2023: [Engineering](xxx)"
 ---
 
