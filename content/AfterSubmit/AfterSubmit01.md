@@ -1,7 +1,7 @@
 ---
 title: "After Submit 01"
 date: 2023-04-26T15:06:54+08:00
-draft: true
+draft: false
 summary: "我的第一篇文章
 JACS2022：[MMLPS探索CuZn合金催化CO2/CO甲醇合成的反应机理](https://doi.org/10.1021/jacs.2c06044)"
 ---
