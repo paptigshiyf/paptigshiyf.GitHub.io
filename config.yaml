@@ -1,14 +1,14 @@
-baseURL: 'http://example.org/'
+baseURL: 'http://paptigshiyf.github.io/'
 languageCode: 'zh'
 defaultContentLanguage: "zh"
-title: 'Blog of Shiyf'
+title: "Shiyf's Blog"
 theme: 'zen'
 
 
 params:
   contact: "603586785@qq.com"
   copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> licence.<!--/Creative Commons License-->'
-  description: 'Blog of Shiyf'
+  description: "Shiyf's Blog"
   dateformat: "2 January, 2006"
   favicon: "images/favicon.ico"
   feedlinks: true
