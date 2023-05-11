@@ -20,7 +20,8 @@
 //
 @font-face {
     font-family: 'LXGW';
-    src: url('/lxgw-wenkai/LXGWWenKai-Regular.ttf');
+    src: url('/lxgw-wenkai/LXGWWenKai-Regular.woff2') format('woff2'),
+        url('/static/samplefont.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
