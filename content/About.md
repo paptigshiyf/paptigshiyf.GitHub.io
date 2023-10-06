@@ -34,12 +34,11 @@ Yun-Fei, Shi
 * CUDA加速PTSD结构描述子计算
   * 利用GPU加速机器学习势能面的训练和推断
 
-### 技术栈
-* 熟练的python编程，掌握或了解多种编程语言(C#, C++, fortran, bash, CUDA, etc.)
+### 技能
+* 熟练的python编程，掌握或了解多种编程语言(C#, C++, fortran, bash, etc.)
 * Linux服务器运维，了解计算集群的搭建(NTFS, ypbind, SGE, etc.)
-* 了解基本的深度学习算法
-* 掌握CUDA编程模型
-
+* 了解基本的深度学习算法。了解CUDA编程模型，能实现简单的算子。
+  
 ### 论文发表
 
 <!-- {{% mdfile file="/content/Publication.md" %}} -->
