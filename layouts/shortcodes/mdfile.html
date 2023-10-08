@@ -1,2 +1,3 @@
+<!-- := (path.Join $.Page.Dir (.Get "file")) -->
 {{ $file := .Get "file" | readFile }}
-{{ (printf $file) }}
+{{ $file }}
